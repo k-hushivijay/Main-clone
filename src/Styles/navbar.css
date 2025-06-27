@@ -1,0 +1,29 @@
+/* navbar.css */
+
+/* Hamburger lines (same as before) */
+.navbar-line {
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  border-radius: 1px;
+}
+.navbar-line-top { width: 24px; top: -8px; }
+.navbar-line-top.open { transform: rotate(45deg); top: 0; }
+
+.navbar-line-mid { width: 24px; top: 0; }
+.navbar-line-mid.open { opacity: 0; }
+
+.navbar-line-bot { width: 16px; top: 8px; }
+.navbar-line-bot.open { width: 24px; transform: rotate(-45deg); top: 0; }
+
+/* Menu item animations */
+.menu-item {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: all 0.5s ease-out;
+}
+.menu-item.show {
+  opacity: 1;
+  transform: translateX(0);
+}
