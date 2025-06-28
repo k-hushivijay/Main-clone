@@ -17,7 +17,7 @@ This is a fully responsive, modern **portfolio/studio website clone** of the Ash
 ## 📁 Folder Structure
 
 ```
-ashley-clone/
+main-clone/
 ├── public/
 ├── src/
 │   ├── assets/              # Images & assets
@@ -96,8 +96,8 @@ import './index.css';
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/k-hushivijay/ashley-clone.git
-cd ashley-clone
+https://github.com/k-hushivijay/Main-clone.git
+cd Main-clone
 ```
 
 ### 2. Install dependencies
